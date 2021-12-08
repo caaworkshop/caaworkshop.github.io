@@ -157,6 +157,13 @@ a.pure-button-primary {
     background-size: cover;
 }
 
+@media (max-width: 767px){
+    .splash-container {
+        background-position: 8% 0%;
+        background-attachment: fixed;
+    }
+}
+
 #attribution {
     position: absolute;
     bottom: 0;
@@ -281,13 +288,6 @@ span.bold {
 /*    .splash-container {
         height: 500px;
     }*/
-
-    /* We decrease the width of the .splash, since we have more width
-    to work with */
-    .splash {
-        width: 60%;
-        height: 50%;
-    }
 
     .splash-head {
         font-size: 250%;
