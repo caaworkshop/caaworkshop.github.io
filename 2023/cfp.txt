@@ -64,7 +64,6 @@ Full paper submissions must not exceed 12 pages in length (maximum 8 pages for t
 Short paper submissions must not exceed 8 pages in length (maximum 6 pages for the main paper content + maximum 1 page for appendices + maximum 1 page for references).
 * Posters: Poster submissions must not exceed 3 pages in length (maximum 2 pages for the main paper content + maximum 1 page for appendices).
 
-
 The papers must be formatted according to the instructions below. Papers not complying to the page limits or not following the formatting guidelines will be desk-rejected.
 
 Submissions will be handled via Easychair, at https://easychair.org/conferences/submissions?a=29997377. Please take some time to include appropriate keywords for your submission.
