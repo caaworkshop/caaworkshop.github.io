@@ -110,9 +110,20 @@
             <p>Session Chair : Jiahua Xu</p>
             <ul>
               <li>9:00 am - 9:10 am : Introduction to the Workshop by the Program Co-Chairs</li>
-              <li>9:10 am - 9:45 am : Invited Talk &mdash; <em>Dominant currencies in Decentralized Finance (DeFi)</em>,
+              <li>9:10 am - 9:45 am : Invited Talk &mdash; <em>Dominant currencies in Decentralized Finance
+                  (DeFi)</em>,
                 by
-                <a href="https://personal.lse.ac.uk/yuan/" target="_blank">Kathy Yuan</a>
+                <a href="https://personal.lse.ac.uk/yuan/" target="_blank">Kathy Yuan</a> <a href="#"
+                  class="abstract-link">[view abstract]</a>
+                <blockquote class="abstract-text" style="display: none;">
+                  In this keynote speech, we explore the rapidly evolving world of decentralized finance (DeFi) to
+                  understand the making of dominant currencies and extract valuable insights for the broader financial
+                  ecosystem. By examining data from the Ethereum blockchain, we identify patterns and attributes
+                  contributing to a currency's dominance, such as active money markets, market size, and correlation
+                  with transaction costs. These findings can inform essential design choices for future central bank
+                  digital currencies (CBDCs) and shed light on the complex dynamics of currency dominance in an
+                  increasingly decentralized financial landscape.
+                </blockquote>
               </li>
               <li>9:45 am - 10:05 pm : Paper Presentation &mdash; <em>An Exploration on Cryptocurrency Corporations'
                   Fiscal
@@ -394,6 +405,21 @@
     </div>
 
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const abstractLinks = document.querySelectorAll('.abstract-link');
+
+      abstractLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+          const abstractText = event.target.closest('li').querySelector('.abstract-text');
+          abstractText.style.display = abstractText.style.display === 'none' ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+
 
 </body>
 
