@@ -472,46 +472,6 @@
     });
   </script>
 
-  <script>
-    function getTimeRemaining(endtime) {
-      const total = Date.parse(endtime) - Date.parse(new Date());
-      const seconds = Math.floor((total / 1000) % 60);
-      const minutes = Math.floor((total / 1000 / 60) % 60);
-      const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-      const days = Math.floor(total / (1000 * 60 * 60 * 24));
-
-      return {
-        total,
-        days,
-        hours,
-        minutes,
-        seconds
-      };
-    }
-
-    function initializeCountdown(id, endtime) {
-      const timer = document.getElementById(id);
-
-      function updateClock() {
-        const t = getTimeRemaining(endtime);
-
-        timer.innerHTML = `Time until workshop starts: ${t.days} days, ${t.hours} hrs, ${t.minutes} mins, ${t.seconds} secs`;
-
-
-        if (t.total <= 0) {
-          clearInterval(timeinterval);
-        }
-      }
-
-      updateClock();
-      const timeinterval = setInterval(updateClock, 1000);
-    }
-
-    const deadline = new Date(Date.parse("2023-05-01T09:00:00-05:00")); // 9am CDT on May 1st, 2023
-    initializeCountdown("timer", deadline);
-  </script>
-
-
 </body>
 
 </html>
