@@ -1,0 +1,95 @@
+*************************************************************************
+Call for Research Papers
+
+4th International Cryptoasset Analytics Workshop (CAAW),
+Co-located with Financial Cryptography and Data Security 2025,
+Miyakojima, Japan
+April 18, 2025
+
+https://caaw.io/2025/
+
+*************************************************************************
+
+The Cryptoasset Analytics Workshop (CAAW) brings together researchers from different academic disciplines to present their newest findings related to cryptoassets and their ecosystems; learn about novel analytics methods spanning all layers (P2P network, consensus, on-chain, off-chain); and discuss open challenges and possible future directions. Since cryptoasset analytics has become relevant across disciplines, we envision this workshop as an interdisciplinary venue, also connecting to cross-cutting issues related to law, ethics, privacy, and security.
+
+The workshop program will feature a mix of invited talks and a selection of submitted research contributions. Scientists and professionals from all disciplines and sectors are invited to share their knowledge and experience.
+
+** Topics & Themes **
+
+Topics and themes of interest include but are not limited to:
+
+Empirical studies that address various aspects of cryptoassets, blockchains, and related phenomena by measuring them, leading to new insight into system characteristics or user behavior. This includes, for example,
+* Cryptoasset networks, compositions, and dependencies
+* Smart contract interactions and dependencies
+* Decentralized Finance (DeFi) systems like stablecoins, lending protocols, derivatives, and decentralized exchanges
+* Transitions between DeFi protocols
+* Cross-chain interactions like bridges and atomic swaps
+* Off-chain networks and rollups
+
+Analytics methods and tools that are suitable to be reused as part of future analytics processes, set new benchmarks, or significantly simplify basic analytics. Examples include,
+* Address clustering techniques
+* Anonymization and identification
+* Dataset extraction and labeling tools
+* Smart contract analysis (e.g., symbolic execution)
+
+Case studies and use cases that focus on specific actors, protocols, services, or other phenomena that emerge, for example, in the following areas:
+* Markets and exchanges
+* Virtual Worlds, Blockchain-based Metaverses and Gaming
+* Security breaches
+* Fraudulent activities
+
+Cryptoassets and the Web where Web technologies and standards interface with blockchain technology and cryptoassets. Examples include:
+* Interfaces between traditional web payments and cryptoassets
+* Adoption and use of cryptoasset-related Web applications
+* Impact of cryptoassets on Web security and privacy
+
+Datasets that are suitable to be reused or may become benchmark datasets against which new methods can be evaluated and compared. Such datasets consist of, e.g.:
+* Account labels
+* Transaction labels
+* Timeframe labels
+along with details on dataset generation, data quality, and ethical considerations.
+
+Cross-cutting issues that exceed the scope of computer science and pay tribute to the interdisciplinary aspect of cryptoasset analytics, such as:
+* Legal and ethical aspects
+* Economics and econometrics
+* Sustainability
+
+** Research Papers & Submission Guidelines **
+
+The Cryptoasset Analytics Workshop (CAAW) welcomes submissions of papers documenting novel scientific research relevant to the topics of the conference. Submissions must be original and must not have been submitted for publication elsewhere. The review process is double-blind. The submitted document should not include any author names, affiliations, or other identifying information. This may include, but is not restricted to: acknowledgements, self-citations, references to prior work by the author(s) etc. Submissions not complying with this guidance will be desk-rejected.
+
+We welcome three types of submissions:
+* Full Papers:
+Full paper submissions must not exceed 15 pages in length, *including* references and well-marked appendices.
+* Short Papers:
+Short paper submissions must not exceed 8 pages in length, *including* references and well-marked appendices.
+
+The papers must be formatted according to the instructions below. Papers not complying to the page limits or not following the formatting guidelines will be desk-rejected.
+
+Submissions will be handled via Easychair, at https://easychair.org/conferences/?conf=caaw25. Please take some time to include appropriate keywords for your submission.
+
+The submitted abstract and keywords will be leveraged to find adequate reviewers for submitted papers. Please write an email to contact@caaw.io, if you have any questions.
+
+** Formatting instructions **
+
+Submissions must adhere to the Springer Lecture Notes in Computer Science format https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines.
+
+Submissions for review must be in PDF format. They must be self-contained and written in English. The PDF files must have all non-standard fonts embedded. Submissions that do not follow these guidelines, or do not view or print properly, will be rejected without review.
+
+** Publication policy **
+
+Accepted submissions will be included in the conference proceedings (International Workshops volume) to be published in the Springer-Verlag Lecture Notes in Computer Science (LNCS) series. At least one author of each accepted workshop paper has to register for the workshop. Workshop attendance is only granted for registered participants.
+
+** Important dates **
+
+Submission deadline: January 17, 2025 (11:59 PM Anywhere on Earth)
+Acceptance notification: February 16, 2025
+Camera-ready version: February 23, 2025
+Workshop: April 18th, 2025
+
+** Organizing Committee **
+
+PC Chairs
+* Bernhard Haslhofer, Complexity Science Hub Vienna, Austria
+* Friedhelm Victor, TRM Labs, USA (PC Chair)
+* Jiahua Xu, The DLT Science Foundation and University College London, United Kingdom
