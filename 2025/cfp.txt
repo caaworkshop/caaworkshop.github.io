@@ -91,5 +91,5 @@ Workshop: April 18th, 2025
 
 PC Chairs
 * Bernhard Haslhofer, Complexity Science Hub Vienna, Austria
-* Friedhelm Victor, TRM Labs, USA (PC Chair)
+* Friedhelm Victor, TRM Labs, USA
 * Jiahua Xu, The DLT Science Foundation and University College London, United Kingdom
