@@ -160,7 +160,7 @@ a.pure-button-primary {
     top: 0;
     left: 0;
     position: fixed !important;
-    background-image: url("The_cape_of_Higashihennazaki_04_Jul,_2014_-_panoramio.jpg");
+    background-image: url("splash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -170,10 +170,11 @@ a.pure-button-primary {
     .splash-container {
         background-attachment: scroll;
         position: relative !important;
-        height: auto;
+        height: 100vh; /* Ensure the background has height */
+        background-position: center center;
+        background-size: cover;
     }
 }
-
 #attribution {
     position: absolute;
     bottom: 0;
