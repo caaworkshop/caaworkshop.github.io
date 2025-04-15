@@ -30,6 +30,22 @@ label {
 }
 
 /*
+ * -- LINK STYLES --
+ * Updated for better contrast and aesthetics
+ */
+a {
+    color: #036564;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    color: #023c3c;
+    text-decoration: underline;
+}
+
+/*
  * -- LAYOUT STYLES --
  * These are some useful classes which I will need
  */
@@ -44,8 +60,6 @@ label {
 .is-center {
     text-align: center;
 }
-
-
 
 /*
  * -- PURE FORM STYLES --
@@ -83,12 +97,10 @@ a.pure-button-primary {
     font-size: 120%;
 }
 
-
 /*
  * -- MENU STYLES --
  * I want to customize how my .pure-menu looks at the top of the page
  */
-
 .home-menu {
     padding: 0.5em;
     text-align: center;
@@ -105,18 +117,14 @@ a.pure-button-primary {
     margin-left: auto;
     margin-right: auto;
     padding: 0em 1em;
-
 }
 
 .pure-menu.pure-menu-fixed {
-    /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
-    /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
 }
 
 .home-menu .pure-menu-heading {
-    /*color: white;*/
     font-weight: 400;
     font-size: 120%;
     max-width: 1100px;
@@ -136,20 +144,17 @@ a.pure-button-primary {
 .home-menu li a:focus {
     background: none;
     border: none;
-    color: #074545;
+    color: #036564; /* Updated to match new link style */
 }
-
 
 /*
  * -- SPLASH STYLES --
  * This is the blue top section that appears on the page.
  */
-
 .splash-container {
     background: #aaa;
     z-index: 1;
     overflow: hidden;
-    /* The following styles are required for the "scroll-over" effect */
     width: 100%;
     height: 88%;
     top: 0;
@@ -181,7 +186,6 @@ a.pure-button-primary {
 }
 
 .splash {
-    /* absolute center .splash within .splash-container */
     width: 100%;
     height: 50%;
     margin: auto;
@@ -209,9 +213,6 @@ span.bold {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    /*border: 3px solid white;
-    padding: 1em 1.6em;
-    font-weight: 100; */
     border-radius: 5px;
     line-height: 1em;
 }
@@ -228,17 +229,14 @@ span.bold {
  * This represents the content area (everything below the blue section)
  */
 .content-wrapper {
-    /* These styles are required for the "scroll-over" effect */
     position: absolute;
     top: 87%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
     background: white;
-
 }
 
-/* We want to give the content area some more padding */
 .content {
     padding: 1em 1em 3em;
     max-width: 1100px;
@@ -250,7 +248,6 @@ span.bold {
     text-align: justify;
 }
 
-/* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
     text-transform: uppercase;
@@ -258,12 +255,10 @@ span.bold {
     margin: 2em 0 1em;
 }
 
-/* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
     color: white;
 }
 
-/* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
     color: #021414;
 }
@@ -278,18 +273,12 @@ span.bold {
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
- * On tablets and other medium-sized devices, we want to customize some
- * of the mobile styles.
  */
 @media (min-width: 48em) {
-
-    /* We increase the body font size */
     body {
         font-size: 16px;
     }
 
-    /* We can align the menu header to the left, but float the
-    menu items to the right. */
     .home-menu {
         text-align: left;
     }
@@ -298,31 +287,19 @@ span.bold {
         float: right;
     }
 
-    /* We increase the height of the splash-container */
-    /*    .splash-container {
-        height: 500px;
-    }*/
-
     .splash-head {
         font-size: 250%;
     }
 
-
-    /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
         border: none;
     }
-
 }
 
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
- * On desktops and other large devices, we want to over-ride some
- * of the mobile and tablet styles.
  */
 @media (min-width: 78em) {
-
-    /* We increase the header font size even more */
     .splash-head {
         font-size: 300%;
     }
