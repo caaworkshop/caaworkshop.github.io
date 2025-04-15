@@ -156,7 +156,7 @@ a.pure-button-primary {
     z-index: 1;
     overflow: hidden;
     width: 100%;
-    height: 100vh; /* changed from 88% */
+    height: 88%;
     top: 0;
     left: 0;
     position: fixed !important;
