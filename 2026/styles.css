@@ -305,6 +305,53 @@ span.bold {
 }
 
 /*
+ * -- MOBILE MENU TOGGLE --
+ */
+.menu-toggle {
+    display: none;
+    position: absolute;
+    right: 1em;
+    top: 0.5em;
+    font-size: 1.4em;
+    color: #021414;
+    padding: 0.3em 0.5em;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+    text-decoration: none;
+    color: #036564;
+}
+
+@media (max-width: 47.99em) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .home-menu .pure-menu-list {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-menu .pure-menu-list.active {
+        display: block;
+    }
+
+    .home-menu .pure-menu-list .pure-menu-item {
+        display: block;
+    }
+
+    .home-menu .pure-menu-list .pure-menu-link {
+        padding: 0.6em 1em;
+    }
+
+    .home-menu .pure-menu-heading {
+        text-align: left;
+    }
+}
+
+/*
  * -- TABLET (AND UP) MEDIA QUERIES --
  */
 @media (min-width: 48em) {

@@ -23,7 +23,8 @@
     <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
       <div class="max-widthed">
         <a class="pure-menu-heading" href="">CAAW 2026</a>
-        <ul class="pure-menu-list">
+        <a href="#" class="menu-toggle" id="menuToggle"><i class="fa fa-bars"></i></a>
+        <ul class="pure-menu-list" id="menuList">
           <!--<li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>-->
           <li class="pure-menu-item"><a href="#program" class="pure-menu-link">Program</a></li>
           <li class="pure-menu-item"><a href="#papers" class="pure-menu-link">Papers</a></li>
@@ -446,6 +447,20 @@
     </div>
 
   </div>
+
+<script>
+(function () {
+    var toggle = document.getElementById('menuToggle');
+    var menu = document.getElementById('menuList');
+    toggle.addEventListener('click', function (e) {
+        e.preventDefault();
+        menu.classList.toggle('active');
+    });
+    menu.addEventListener('click', function () {
+        menu.classList.remove('active');
+    });
+})();
+</script>
 
 </body>
 
