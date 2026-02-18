@@ -274,6 +274,36 @@ span.bold {
     background: #F9F9F9;
 }
 
+.program-table {
+    width: 100%;
+    border: none;
+}
+
+.program-table td {
+    border: none;
+    vertical-align: top;
+    padding: 0.4em 1em;
+}
+
+.program-table td.schedule {
+    white-space: nowrap;
+    width: 1%;
+    color: #7f8c8d;
+}
+
+.program-table tr.session-header td {
+    color: #34495e;
+    padding: 1.2em 1em 0.8em;
+}
+
+.program-table tr.break-before td {
+    border-top: 1px solid #ccc;
+}
+
+.program-table tr.break-after td {
+    border-bottom: 1px solid #ccc;
+}
+
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  */
