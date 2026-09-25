@@ -1,0 +1,33 @@
+2027/cfp.txt
+  s_332df096b84474::t_e6e65429a9c5b5 1-6,8-89,91-98
+  s_332df096b84474::t_13f6ca9c7f7478 99
+  s_332df096b84474::t_94695e36d8b39c 7,90
+2027/styles.css
+  s_332df096b84474::t_e843982e4be356 230-241,250-251
+  s_332df096b84474::t_875e55bf436c7f 1-229,252-408
+  s_332df096b84474::t_19bf04c26c7425 242-249
+2027/index.html
+  s_332df096b84474::t_e6e65429a9c5b5 1-10,12-14,16-20,22-53,59-61,66-227,229-245,247-281
+  s_332df096b84474::t_94695e36d8b39c 11,15,21,228
+  s_332df096b84474::t_f76915fe17f6c1 62
+  s_332df096b84474::t_fd4ec14388851a 63-65
+  s_332df096b84474::t_e843982e4be356 58
+  s_332df096b84474::t_13f6ca9c7f7478 246
+  s_332df096b84474::t_19bf04c26c7425 54-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "d2e05288e8c815ffe3cf2cc18e172107002b88c3",
+  "prompts": {},
+  "sessions": {
+    "s_332df096b84474": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "59dac2ac-ec68-488b-a15e-357714c9ed1d",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Friedhelm Victor <friedhelm@trmlabs.com>"
+    }
+  }
+}
