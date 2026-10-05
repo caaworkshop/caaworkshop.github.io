@@ -1,0 +1,19 @@
+2027/index.html
+  s_3b1b06475eb5dd::t_6c86f7ea6ab62c 95
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "a35cd9ab5fd1a68169c38c3d04691af1b39b342a",
+  "prompts": {},
+  "sessions": {
+    "s_3b1b06475eb5dd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d1b93586-7416-4219-83ab-7c5848017b31",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Friedhelm Victor <friedhelm@trmlabs.com>"
+    }
+  }
+}
