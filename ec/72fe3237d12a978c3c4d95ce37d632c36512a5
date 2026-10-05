@@ -1,0 +1,23 @@
+2027/index.html
+  s_65c30708c994f0::t_3361745953a4f0 225
+  s_65c30708c994f0::t_4c3feef7b82122 226-227
+2027/cfp.txt
+  s_65c30708c994f0::t_3361745953a4f0 87
+  s_65c30708c994f0::t_4c3feef7b82122 88-89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "ec72fe3237d12a978c3c4d95ce37d632c36512a5",
+  "prompts": {},
+  "sessions": {
+    "s_65c30708c994f0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9fa3316f-66c9-4d2b-9d26-a7604e422f9b",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Friedhelm Victor <friedhelm@trmlabs.com>"
+    }
+  }
+}
