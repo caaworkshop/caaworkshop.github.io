@@ -1,0 +1,25 @@
+2027/index.html
+  s_3b1b06475eb5dd::t_ae6ff74ebea092 60-63
+  s_3b1b06475eb5dd::t_60167200757adb 298
+  s_3b1b06475eb5dd::t_8a199005bcc03f 77-92
+2027/countdown.js
+  s_3b1b06475eb5dd::t_08b9d3682d39ba 1-83
+2027/styles.css
+  s_3b1b06475eb5dd::t_08b9d3682d39ba 408-662
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "0dbdcef0315a3b5746670efde9179ce2aa058195",
+  "prompts": {},
+  "sessions": {
+    "s_3b1b06475eb5dd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d1b93586-7416-4219-83ab-7c5848017b31",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Friedhelm Victor <friedhelm@trmlabs.com>"
+    }
+  }
+}
