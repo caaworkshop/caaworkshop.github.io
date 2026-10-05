@@ -406,3 +406,257 @@ span.bold {
         font-size: 300%;
     }
 }
+
+/*
+ * -- DEADLINE COUNTDOWN --
+ * Driven by countdown.js. Elements stay hidden until the script runs.
+ */
+[data-cd][hidden],
+[data-cd-cta][hidden] {
+    display: none !important;
+}
+
+/* Center the splash content in the visible part of the photo (between the
+   fixed menu and the content starting at 87vh), so the countdown never gets
+   clipped on short screens. */
+.splash {
+    top: 3.5em;
+    bottom: calc(100% - 87vh + 1.8em);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: safe center;
+}
+
+.splash > * {
+    flex: none;
+}
+
+.splash-head {
+    margin: 0 0 0.5em;
+}
+
+.splash-subhead {
+    margin: 0;
+}
+
+@media (max-height: 700px) {
+    .splash-head {
+        margin-bottom: 0.3em;
+    }
+
+    .splash-subhead {
+        line-height: 1.5;
+    }
+}
+
+/* Hero countdown: one big number */
+.cd-hero {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-top: 0.8em;
+    text-align: left;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.6), 0 0 2px rgba(0, 0, 0, 0.8);
+}
+
+.cd-hero-num {
+    font-size: 5em;
+    font-weight: 200;
+    line-height: 1;
+    padding-right: 0.15em;
+    border-right: 2px solid rgba(255, 255, 255, 0.8);
+    font-variant-numeric: tabular-nums;
+}
+
+.cd-hero-text {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    line-height: 1.35;
+}
+
+.cd-hero-text small {
+    font-size: 0.8em;
+    opacity: 0.9;
+}
+
+@media (max-width: 47.99em), (max-height: 700px) {
+    .cd-hero-num {
+        font-size: 3.6em;
+    }
+}
+
+@media (min-width: 78em) {
+    .cd-hero {
+        font-size: 18px;
+    }
+}
+
+/* News countdown with milestone timeline (currently commented out in index.html) */
+.cd-news {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1.5em 3em;
+    margin: 0 2em;
+    padding: 1.6em 2em;
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+}
+
+.cd-news-big {
+    color: #021414;
+    font-size: 3.2em;
+    font-weight: 300;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+}
+
+.cd-news-big small {
+    font-size: 0.4em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.cd-news-sub {
+    margin: 0.6em 0 1em;
+    line-height: 1.4;
+}
+
+.cd-news-sub strong {
+    color: #34495e;
+}
+
+.cd-news-cta,
+.cd-news-cta:hover,
+.cd-news-cta:focus {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.cd-news-tl {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.cd-news-tl li {
+    flex: 1;
+    position: relative;
+    padding-top: 1.8em;
+    text-align: center;
+    font-size: 0.85em;
+    line-height: 1.35;
+}
+
+.cd-news-tl li::before {
+    content: "";
+    position: absolute;
+    top: 0.55em;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #ddd;
+}
+
+.cd-news-tl li:first-child::before {
+    left: 50%;
+}
+
+.cd-news-tl li:last-child::before {
+    right: 50%;
+}
+
+.cd-news-tl li.is-past::before {
+    background: #036564;
+}
+
+.cd-news-tl .dot {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    width: 1.2em;
+    height: 1.2em;
+    margin-left: -0.6em;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #ccc;
+}
+
+.cd-news-tl b {
+    display: block;
+    color: #34495e;
+}
+
+.cd-news-tl .is-past .dot {
+    background: #036564;
+    border-color: #036564;
+}
+
+.cd-news-tl .is-next .dot {
+    border-color: #036564;
+    box-shadow: 0 0 0 4px rgba(3, 101, 100, 0.2);
+}
+
+.cd-news-tl .is-next b {
+    color: #036564;
+}
+
+.cd-urgent .cd-news-big {
+    color: #c0392b;
+}
+
+@media (max-width: 63.99em) {
+    .cd-news {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+@media (max-width: 47.99em) {
+    .cd-news {
+        margin: 0 1em;
+        padding: 1.4em 1.4em 0.6em;
+        text-align: left;
+    }
+
+    .cd-news-tl {
+        flex-direction: column;
+    }
+
+    .cd-news-tl li {
+        text-align: left;
+        padding: 0 0 1.1em 2em;
+    }
+
+    .cd-news-tl li::before {
+        top: 0;
+        bottom: 0;
+        left: 0.55em;
+        right: auto;
+        width: 2px;
+        height: auto;
+    }
+
+    .cd-news-tl li:first-child::before {
+        top: 0.6em;
+        left: 0.55em;
+    }
+
+    .cd-news-tl li:last-child::before {
+        bottom: auto;
+        height: 0.6em;
+    }
+
+    .cd-news-tl .dot {
+        left: 0;
+        margin-left: 0;
+        top: 0.1em;
+    }
+}
