@@ -70,7 +70,7 @@ The papers must be formatted according to the instructions below. Papers not com
 
 Submissions will be handled via Easychair, at https://easychair.org/conferences/?conf=caaw27. Please take some time to include appropriate keywords for your submission.
 
-The submitted abstract and keywords will be leveraged to find adequate reviewers for submitted papers. Please write an email to contact@caaw.io, if you have any questions.
+The submitted abstract and keywords will be leveraged to find adequate reviewers for submitted papers. Please write an email to caaw27@easychair.org, if you have any questions.
 
 ** Formatting instructions **
 
@@ -84,7 +84,7 @@ Accepted submissions will be included in the conference proceedings (Internation
 
 ** Important dates **
 
-Submission deadline: November 13, 2026 (11:59 PM Anywhere on Earth)
+Submission deadline: November 20, 2026 (firm!) (11:59 PM Anywhere on Earth)
 Acceptance notification: December 18, 2026
 Camera-ready version: January 5, 2027
 Workshop: February 12, 2027

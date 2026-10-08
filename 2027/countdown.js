@@ -2,14 +2,14 @@
  * CAAW deadline countdown.
  * Counts down to the next upcoming milestone and moves on automatically once
  * a deadline passes. Hides itself after the workshop.
- * Preview other dates with ?now=2026-11-13T20:00:00Z
+ * Preview other dates with ?now=2026-11-20T20:00:00Z
  */
 (function () {
     // Deadlines are end of day Anywhere on Earth (UTC-12).
     function aoe(y, m, d) { return Date.UTC(y, m - 1, d, 23, 59, 59) + 12 * 3600e3; }
 
     var MILESTONES = [
-        { key: 'submission', label: 'Submission deadline', short: 'Submissions close', date: 'Nov 13, 2026', at: aoe(2026, 11, 13),
+        { key: 'submission', label: 'Submission deadline', short: 'Submissions close', date: 'Nov 20, 2026', at: aoe(2026, 11, 20),
           cta: { text: 'Submit on EasyChair', href: 'https://easychair.org/conferences/?conf=caaw27' } },
         { key: 'notification', label: 'Acceptance notification', short: 'Notifications', date: 'Dec 18, 2026', at: aoe(2026, 12, 18) },
         { key: 'camera', label: 'Camera-ready deadline', short: 'Camera-ready due', date: 'Jan 5, 2027', at: aoe(2027, 1, 5) },

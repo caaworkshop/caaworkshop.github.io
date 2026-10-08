@@ -494,7 +494,7 @@ span.bold {
     }
 }
 
-/* News countdown with milestone timeline (currently commented out in index.html) */
+/* News countdown with milestone timeline */
 .cd-news {
     display: grid;
     grid-template-columns: auto 1fr;
