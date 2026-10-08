@@ -1,0 +1,19 @@
+2027/cfp.txt
+  s_d4c186f5be4096::t_9537865079db0d 98
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "4cca56289b390efad275880339f933b626220acc",
+  "prompts": {},
+  "sessions": {
+    "s_d4c186f5be4096": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "29b047df-e010-405e-9305-84cbb2a19160",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Friedhelm Victor <friedhelm@trmlabs.com>"
+    }
+  }
+}
