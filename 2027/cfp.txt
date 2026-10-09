@@ -94,6 +94,6 @@ Workshop: February 12, 2027
 PC Chairs
 * Bernhard Haslhofer, Complexity Science Hub Vienna, Austria
 * Friedhelm Victor, TRM Labs, USA
-* Jiahua Xu, Exponential Science Foundation and University College London, United Kingdom
+* Jiahua Xu, UCL Centre for Blockchain Technologies, United Kingdom
 * Aviv Yaish, Princeton University, USA
 * Co-Pierre Georg, Frankfurt School of Finance & Management, Germany
