@@ -1,0 +1,51 @@
+# International Cryptoasset Analytics Workshop (CAAW)
+
+> CAAW is an annual academic workshop for empirical and data-driven research on cryptoassets, blockchains and decentralized finance (DeFi). It is co-located with a major conference. Since 2025 that conference is Financial Cryptography and Data Security (FC). The 2022–2024 editions were co-located with The ACM Web Conference. Accepted papers appear in the FC workshops proceedings in Springer Lecture Notes in Computer Science (LNCS).
+
+## Current edition: CAAW 2027
+
+- [CAAW 2027](https://caaw.io/2027/): the 6th edition, February 12, 2027, at the Accra Beach Hotel & Spa, Barbados. It is co-located with Financial Cryptography and Data Security 2027 ([FC 2027](https://fc27.ifca.ai/)).
+- Submission deadline: November 20, 2026, 11:59 PM Anywhere on Earth (firm)
+- Acceptance notification: December 18, 2026
+- Camera-ready version: January 5, 2027
+- Submissions: [EasyChair](https://easychair.org/conferences/?conf=caaw27). Review is double-blind. Full papers have at most 15 pages, short papers at most 8 pages and posters at most 3 pages, including references and appendices, in Springer LNCS format.
+- Contact: caaw27@easychair.org
+- Organizers: Bernhard Haslhofer (Complexity Science Hub Vienna), Friedhelm Victor (TRM Labs), Jiahua Xu (UCL Centre for Blockchain Technologies), Aviv Yaish (Princeton University), Co-Pierre Georg (Frankfurt School of Finance & Management)
+
+## Topics
+
+- Empirical studies of cryptoassets, blockchains, DeFi, cross-chain interactions and Layer-2 systems
+- Analytics methods and tools, such as address clustering, anonymization and identification, dataset extraction and labeling, and smart contract analysis
+- Case studies of markets and exchanges, security breaches and fraud
+- Cryptoassets and the Web
+- Reusable datasets and benchmarks
+- Cross-cutting issues, including economic, legal and ethical aspects
+
+## Previous editions
+
+- [CAAW 2026](https://caaw.io/2026/): 5th edition, March 6, 2026, St. Kitts, co-located with FC 2026
+- [CAAW 2025](https://caaw.io/2025/): 4th edition, April 18, 2025, Miyakojima, Japan, co-located with FC 2025
+- [CAAW 2024](https://caaw.io/2024/): 3rd edition, May 14, 2024, Singapore, co-located with The ACM Web Conference 2024
+- [CAAW 2023](https://caaw.io/2023/): 2nd edition, May 1, 2023, Austin, Texas, USA, co-located with The ACM Web Conference 2023
+- [CAAW 2022](https://caaw.io/2022/): 1st edition, April 25, 2022, online (hosted by Lyon, France), co-located with The ACM Web Conference 2022
+
+## Accepted papers, CAAW 2026
+
+- [The (In-)Finite Money Glitch](https://caaw.io/2026/papers/CAAW26_paper_7.pdf)
+- [Solving Data Availability Limitations in Client-Side Validation with UTxO Binding](https://caaw.io/2026/papers/CAAW26_paper_11.pdf)
+- [Riding the Hogwarts Express: An Empirical Analysis of Litecoin's MWEB Adoption and Usage Patterns](https://caaw.io/2026/papers/CAAW26_paper_4.pdf)
+- [Cross-Rollup MEV: Non-Atomic Arbitrage on Layer-2 Blockchains](https://caaw.io/2026/papers/CAAW26_paper_6.pdf)
+- [How Exclusive are Ethereum Transactions? Evidence from non-winning blocks](https://caaw.io/2026/papers/CAAW26_paper_5.pdf)
+- [How to Serve Your Sandwich? MEV Attacks in Private L2 Mempools](https://caaw.io/2026/papers/CAAW26_paper_9.pdf)
+
+## Accepted papers, CAAW 2025
+
+- [On the Lifecycle of a Lightning Network Payment Channel](https://caaw.io/2025/papers/CAAW25_paper_20.pdf)
+- [The Writing is on the Wall: Analyzing the Boom of Inscriptions and its Impact on EVM-compatible Blockchains](https://caaw.io/2025/papers/CAAW25_paper_08.pdf)
+- [Price Oracle Accuracy Across Blockchains: A Measurement and Analysis](https://caaw.io/2025/papers/CAAW25_paper_22.pdf)
+- [A Public Dataset for the ZKsync Rollup](https://caaw.io/2025/papers/CAAW25_paper_04.pdf)
+- [Early Observations of Based Rollups: A Case Study of Taiko](https://caaw.io/2025/papers/CAAW25_paper_21.pdf)
+- [What Drives Liquidity on Decentralized Exchanges? Evidence from the Uniswap Protocol](https://caaw.io/2025/papers/CAAW25_paper_18.pdf)
+- [Liquidity Fragmentation or Optimization? Analyzing Automated Market Makers Across Ethereum and Rollups](https://caaw.io/2025/papers/CAAW25_paper_06.pdf)
+- [Quantifying Price Improvement in Order Flow Auctions](https://caaw.io/2025/papers/CAAW25_paper_13.pdf)
+- [Short Paper: Atomic Execution is Not Enough for Arbitrage Profit Extraction in Shared Sequencers](https://caaw.io/2025/papers/CAAW25_paper_10.pdf)
